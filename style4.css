@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Satisfy&display=swap');
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the entire page */
+body {
+    font-family: 'Satisfy';
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+.featured-story {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.featured-story h2 {
+    font-size: 24px;
+}
+
+.featured-story img {
+    max-width: 60%;
+    height: auto;
+}
+
+/* Story styles */
+.story {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.story h2 {
+    font-size: 24px;
+}
+
+.story img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Pagination styles */
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.pagination a:hover {
+    background-color: #555;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="Password"]
+textarea {
+    width: none;
+    padding: none;
+
+    margin-bottom: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+::selection{
+    background: #333;
+    color: #fff;
+}
+
+.a{
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.b{
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.b a{
+    text-decoration: none;
+    color:darkmagenta;
+}
+.b a:hover{
+    color:pink;
+    text-decoration: none;
+}
+
+.destination-guide{
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.destination-guide img{
+    max-width: 60%;
+    height: auto;
+}
+
+.featured-story a{
+    text-decoration: none;
+
+}
+
+.story a{
+    text-decoration: none;
+}
+.story a:hover{
+    color: pink;
+    text-decoration: none;
+}
+
+.featured-story a:hover{
+    color:pink;
+    text-decoration: none;
+}
